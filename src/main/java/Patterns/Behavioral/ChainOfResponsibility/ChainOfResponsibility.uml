@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Patterns.Behavioral.ChainOfResponsibility</OriginalElement>
+  <nodes>
+    <node x="238.9719387755102" y="0.0">Patterns.Behavioral.ChainOfResponsibility.Notifier</node>
+    <node x="226.00000000000003" y="233.5">Patterns.Behavioral.ChainOfResponsibility.SMSNotifier</node>
+    <node x="0.0" y="233.5">Patterns.Behavioral.ChainOfResponsibility.SimpleReportNotifier</node>
+    <node x="407.0" y="233.5">Patterns.Behavioral.ChainOfResponsibility.EmailNotifier</node>
+    <node x="591.0" y="223.0">Patterns.Behavioral.ChainOfResponsibility.Priority</node>
+    <node x="401.9005102040817" y="368.0">Patterns.Behavioral.ChainOfResponsibility.BugTracker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.EmailNotifier" target="Patterns.Behavioral.ChainOfResponsibility.Notifier">
+      <point x="-40.75" y="-37.0" />
+      <point x="447.75" y="203.0" />
+      <point x="388.75765306122446" y="203.0" />
+      <point x="33.28571428571428" y="81.5" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.BugTracker" target="Patterns.Behavioral.ChainOfResponsibility.SimpleReportNotifier">
+      <point x="-68.00000000000006" y="-25.5" />
+      <point x="418.9005102040817" y="348.0" />
+      <point x="103.0" y="348.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.SimpleReportNotifier" target="Patterns.Behavioral.ChainOfResponsibility.Notifier">
+      <point x="-51.5" y="-37.0" />
+      <point x="51.5" y="183.0" />
+      <point x="255.61479591836735" y="183.0" />
+      <point x="-99.85714285714286" y="81.5" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.BugTracker" target="Patterns.Behavioral.ChainOfResponsibility.EmailNotifier">
+      <point x="-5.6843418860808015E-14" y="-25.5" />
+      <point x="486.9005102040817" y="348.0" />
+      <point x="488.5" y="348.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.BugTracker" target="Patterns.Behavioral.ChainOfResponsibility.Priority">
+      <point x="67.99999999999994" y="-25.5" />
+      <point x="554.9005102040817" y="348.0" />
+      <point x="668.0" y="348.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.SMSNotifier" target="Patterns.Behavioral.ChainOfResponsibility.Notifier">
+      <point x="-40.25" y="-37.0" />
+      <point x="266.25" y="203.0" />
+      <point x="322.1862244897959" y="203.0" />
+      <point x="-33.28571428571428" y="81.5" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.BugTracker" target="Patterns.Behavioral.ChainOfResponsibility.SMSNotifier">
+      <point x="-34.00000000000006" y="-25.5" />
+      <point x="452.9005102040817" y="338.0" />
+      <point x="306.5" y="338.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Patterns.Behavioral.ChainOfResponsibility.BugTracker" target="Patterns.Behavioral.ChainOfResponsibility.Notifier">
+      <point x="33.99999999999994" y="-25.5" />
+      <point x="520.9005102040817" y="338.0" />
+      <point x="580.5" y="338.0" />
+      <point x="580.5" y="183.0" />
+      <point x="455.329081632653" y="183.0" />
+      <point x="99.85714285714283" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9202614379084967" x="372.5" y="209.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

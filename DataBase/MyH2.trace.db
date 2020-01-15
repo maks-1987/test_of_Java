@@ -1,0 +1,4 @@
+2018-04-23 14:18:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "PAWN" уже существует
+Table "PAWN" already exists; SQL statement:
+create table pawn(name varchar(20)) [42101-197]

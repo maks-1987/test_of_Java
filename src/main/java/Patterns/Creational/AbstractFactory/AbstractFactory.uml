@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Patterns.Creational.AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="288.0" y="520.0">Patterns.Creational.AbstractFactory.FrenchAddressFactory</node>
+    <node x="178.0" y="234.0">Patterns.Creational.AbstractFactory.FrenchAddress</node>
+    <node x="595.0" y="146.0">Patterns.Creational.AbstractFactory.FrenchPhoneNumber</node>
+    <node x="144.0" y="397.0">Patterns.Creational.AbstractFactory.AddressFactory</node>
+    <node x="381.0" y="146.0">Patterns.Creational.AbstractFactory.USPhoneNumber</node>
+    <node x="82.5" y="0.0">Patterns.Creational.AbstractFactory.Address</node>
+    <node x="0.0" y="520.0">Patterns.Creational.AbstractFactory.USAddressFactory</node>
+    <node x="0.0" y="234.0">Patterns.Creational.AbstractFactory.USAddress</node>
+    <node x="494.0" y="0.0">Patterns.Creational.AbstractFactory.PhoneNumber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Patterns.Creational.AbstractFactory.FrenchAddressFactory" target="Patterns.Creational.AbstractFactory.AddressFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="422.0" y="495.0" />
+      <point x="345.0" y="495.0" />
+      <point x="67.0" y="36.5" />
+    </edge>
+    <edge source="Patterns.Creational.AbstractFactory.USAddress" target="Patterns.Creational.AbstractFactory.Address">
+      <point x="0.0" y="-59.0" />
+      <point x="79.0" y="209.0" />
+      <point x="125.25" y="209.0" />
+      <point x="-42.75" y="92.0" />
+    </edge>
+    <edge source="Patterns.Creational.AbstractFactory.FrenchAddress" target="Patterns.Creational.AbstractFactory.Address">
+      <point x="0.0" y="-59.0" />
+      <point x="257.0" y="209.0" />
+      <point x="210.75" y="209.0" />
+      <point x="42.75" y="92.0" />
+    </edge>
+    <edge source="Patterns.Creational.AbstractFactory.FrenchPhoneNumber" target="Patterns.Creational.AbstractFactory.PhoneNumber">
+      <point x="0.0" y="-59.0" />
+      <point x="692.0" y="121.0" />
+      <point x="630.5" y="121.0" />
+      <point x="45.5" y="48.0" />
+    </edge>
+    <edge source="Patterns.Creational.AbstractFactory.USAddressFactory" target="Patterns.Creational.AbstractFactory.AddressFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="134.0" y="495.0" />
+      <point x="211.0" y="495.0" />
+      <point x="-67.0" y="36.5" />
+    </edge>
+    <edge source="Patterns.Creational.AbstractFactory.USPhoneNumber" target="Patterns.Creational.AbstractFactory.PhoneNumber">
+      <point x="0.0" y="-59.0" />
+      <point x="478.0" y="121.0" />
+      <point x="539.5" y="121.0" />
+      <point x="-45.5" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0177057356608479" x="360.5976476353835" y="331.9184782608695" />
+  <SelectedNodes>
+    <node>Patterns.Creational.AbstractFactory.FrenchAddressFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

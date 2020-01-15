@@ -1,0 +1,32 @@
+package Constructor;
+
+class PuppyM{
+    private int puppyAge;
+
+    PuppyM(String name){
+        // Это конструктор и у него один параметр, name.
+        System.out.println("Передаваемое имя: " + name );
+    }
+    private void setAge(int age){
+        puppyAge = age;
+    }
+    private int getAge( ){
+        System.out.println("Возраст щенка: " + puppyAge );
+        return puppyAge;
+    }
+    public static void main(String []args){
+      // Создание объекта.
+        PuppyM myPuppy = new PuppyM("Багет");
+      // Вызов метод класса, чтобы установить возраст щенка.
+        myPuppy.setAge(2);
+      // Вызов другого метода класса, чтобы получить возраст щенка.
+        myPuppy.getAge();
+      // Получение переменной экземпляра класса.
+        System.out.println("Значение переменной: " + myPuppy.puppyAge);
+    }
+}/*
+>>>     Передаваемое имя: Багет
+        Возраст щенка: 2
+        Значение переменной: 2
+*/
+
