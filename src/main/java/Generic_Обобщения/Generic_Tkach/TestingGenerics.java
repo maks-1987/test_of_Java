@@ -10,7 +10,8 @@ public class TestingGenerics {
         Container<Phone> phone = new Container<>();;
         //Container<String> c4 = new Container<>(); // Error:(10, 19) java: type argument java.lang.String is not within bounds of type-variable T
 
-        //p.find(c2, new Camera()); // Error:(14, 16) java: incompatible types: Container<Camera> cannot be converted to java.util.List<Product>
+        //p.find(camera, new Camera()); // Error:(14, 16) java: incompatible types: Container<Camera> cannot be converted to java.util.List<Product>
+        //p.find(cameraList, new Camera()); // Error:(14, 16) java: incompatible types: Container<Camera> cannot be converted to java.util.List<Product>
 
     }
 }
