@@ -1,5 +1,6 @@
 package Generic_Обобщения.Generic_Tkach;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,27 +11,27 @@ import java.util.List;
  *
  * @param <T>
  */
-class Container<T extends Product> {
-    T arr;
+public class Container<T extends Product> {
+    List<T> arr = new ArrayList<T>();
 
-    public T getArr() {
+    public List<T> getArr() {
         return arr;
     }
 
     public void setArr(T arr) {
-        this.arr = arr;
+        this.arr = (List<T>) arr;
     }
 
     void add(T o) {
-        arr = o;
+        arr = (List<T>) o;
     }
 
     public T getItem() {
-        return arr;
+        return (T) arr;
     }
 
     public void setItem(T item) {
-        this.arr = item;
+        this.arr = (List<T>) item;
     }
 
     boolean isSameProduct = false;
